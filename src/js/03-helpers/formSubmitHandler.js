@@ -6,7 +6,6 @@ const formSubmitHandler = e => {
     return;
   }
   e.preventDefault();
-  localStorage.removeItem(FORM_KEY);
   e.currentTarget.reset();
 };
 
